@@ -2,6 +2,11 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.title {
+  letter-spacing: 1vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .search-field {
   border: none;
   border-radius: 50px;
