@@ -1,4 +1,5 @@
 const loadProducts = () => {
+  // all data of products
   const data = [
     {
       id: 1,
@@ -244,6 +245,8 @@ const addToCart = (id, price) => {
   document.getElementById("total-Products").innerText = count;
 };
 
+// get all price element
+
 const getInputValue = (id) => {
   const element = document.getElementById(id).innerText;
   const converted = parseFloat(element);
@@ -290,4 +293,5 @@ const updateTotal = () => {
   document.getElementById("total").innerText =
     parseFloat(grandTotal).toFixed(2);
 };
+// calling data function for display
 loadProducts();
